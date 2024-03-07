@@ -1,1 +1,42 @@
-Hello Wolrd, Testing 123
+/* Content index container */
+.content-index {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+/* Content index title */
+.content-index h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* List styling */
+.content-index ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List items */
+.content-index li {
+  margin-bottom: 5px;
+}
+
+/* Link styling */
+.content-index a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.content-index a:hover {
+  color: #007bff;
+}
